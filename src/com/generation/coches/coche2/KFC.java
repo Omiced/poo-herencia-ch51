@@ -4,7 +4,7 @@ public class KFC implements Restaurante{
 
     @Override
     public String hornear() {
-        return "horneaste Bisquets";
+        return "honeraste papas";
     }
 
     @Override
