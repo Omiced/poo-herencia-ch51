@@ -9,12 +9,13 @@ public class CocheElectrico extends Coche{
 
     public CocheElectrico(int numLlantas, int numAsientos, Boolean tieneCajuela, String tipoMotor, String marca, String modelo,
                           String carroceria, String tipoTransmicion, int numPuertas, int numVentanas, String color,
-                          int velocidadActual, int capacidadBateria, String tipoCarga, int voltaje) {
+                          int velocidadActual, int capacidadBateria, String tipoCarga, int voltaje, float porcentajeCarga) {
         super(numLlantas, numAsientos, tieneCajuela, tipoMotor, marca, modelo, carroceria, tipoTransmicion, numPuertas, numVentanas,
                 color, velocidadActual);
         this.capacidadBateria = capacidadBateria;
         this.tipoCarga = tipoCarga;
         this.voltaje = voltaje;
+        this.porcentajeCarga = porcentajeCarga;
     }
 
     public int getCapacidadBateria() {

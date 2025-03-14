@@ -140,8 +140,12 @@ public class Coche {
     }
 
     public void arrancanr(int velocidadActual){
-        if (velocidadActual != 0) System.out.println("ya estas en movimiento");
-        this.setVelocidadActual(10);
+        if (velocidadActual != 0) {
+            System.out.println("ya estas en movimiento");
+        }else{
+            System.out.println("Aumentando la velocidad en 10");
+            this.setVelocidadActual(10);
+        }
     }
 
     public String caracteristicas(){
